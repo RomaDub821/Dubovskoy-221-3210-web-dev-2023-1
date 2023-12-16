@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЭлектроСфера - Создание контракта</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Логотип ЭлектроСфера">
+        <h1>ЭлектроСфера</h1>
+    </header>
+
+    <div id="create-contract-window">
+        <div id="contracts-list">
+            <!-- Список ваших контрактов -->
+            <h2>Ваши контракты</h2>
+            <ul>
+                <li>Контракт 1</li>
+                <li>Контракт 2</li>
+                <!-- Добавьте другие контракты по мере необходимости -->
+            </ul>
+        </div>
+
+        <div id="create-contract-form">
+            <h2>Создать контракт</h2>
+            <form>
+                <label for="tariff">Тариф:</label>
+                <select id="tariff" name="tariff">
+                    <option value="tariff1">Тариф 1</option>
+                    <option value="tariff2">Тариф 2</option>
+                    <!-- Добавьте другие тарифы по мере необходимости -->
+                </select>
+
+                <label for="duration">Продолжительность:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                <input type="date" id="end-date" name="end-date" required>
+
+                <button type="submit">Создать контракт</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            &copy; Дубовской Роман Евгеньевич
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЭлектроСфера - Регистрация</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Логотип ЭлектроСфера">
+        <h1>ЭлектроСфера</h1>
+    </header>
+
+    <div id="registration-window">
+        <form>
+            <label for="lastname">Фамилия:</label>
+            <input type="text" id="lastname" name="lastname" required>
+
+            <label for="firstname">Имя:</label>
+            <input type="text" id="firstname" name="firstname" required>
+
+            <label for="middlename">Отчество:</label>
+            <input type="text" id="middlename" name="middlename">
+
+            <label for="gender">Пол:</label>
+            <select id="gender" name="gender">
+                <option value="male">Мужской</option>
+                <option value="female">Женский</option>
+            </select>
+
+            <label for="phone">Номер телефона:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="login">Логин:</label>
+            <input type="text" id="login" name="login" required>
+            
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="confirm-password">Повторите пароль:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+
+            <button type="submit">Регистрация</button>
+        </form>
+
+        <a href="index.html">Авторизация</a>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            &copy; Дубовской Роман Евгеньевич
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
